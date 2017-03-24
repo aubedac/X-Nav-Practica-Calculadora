@@ -1,0 +1,59 @@
+#frame {
+  border: 3px solid black;
+  margin-top: 20px;
+  margin-right: auto;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  margin-left: 30%;
+  border-radius: 15px;
+  background-color: #90EE90;
+}
+
+#display {
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+#frame .row {
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#frame .row .col-md-3 > * {
+  border-radius: 15px;
+  width: 60px;
+  height: auto;
+  margin-left: 5px;
+  color: blue;
+  font-style: oblique;
+}
+
+#frame .row .col-md-3 .button-del {
+  color: black;
+  background-color: yellow;
+}
+
+#frame .row .col-md-3 .button-C {
+  color: black;
+  background-color: orange;
+}
+
+#frame .row .col-md-3 .button-ans {
+  color: orange;
+  background-color: black;
+}
+
+#frame .row .col-md-3 .button-equal {
+  color: yellow;
+  background-color: black;
+}

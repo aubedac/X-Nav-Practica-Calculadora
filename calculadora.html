@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title> Practica - Calculadora SPA </title>
+  <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+  <div id="frame">
+
+    <div id="display">
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <input type="button" value="7" class="button" onclick="selected('7')">
+        <input type="button" value="8" class="button" onclick="selected('8')">
+        <input type="button" value="9" class="button" onclick="selected('9')">
+        <input type="button" value="DEL" class="button-del" onclick="erase()">
+        <input type="button" value="C" class="button-C" onclick="del()">
+      </div>
+
+      <div class="col-md-3">
+        <input type="button" value="4" class="button" onclick="selected('4')">
+        <input type="button" value="5" class="button" onclick="selected('5')">
+        <input type="button" value="6" class="button" onclick="selected('6')">
+        <input type="button" value="x" class="button" onclick="mult()">
+        <input type="button" value="/" class="button" onclick="div()">
+      </div>
+
+      <div class="col-md-3">
+        <input type="button" value="1" class="button" onclick="selected('1')">
+        <input type="button" value="2" class="button" onclick="selected('2')">
+        <input type="button" value="3" class="button" onclick="selected('3')">
+        <input type="button" value="+" class="button" onclick="add()">
+        <input type="button" value="-" class="button" onclick="minus()">
+      </div>
+
+      <div class="col-md-3">
+        <input type="button" value="0" class="button" onclick="selected('0')">
+        <input type="button" value="^" class="button" onclick="power()">
+        <input type="button" value="=" class="button-equal" onclick="equal()">
+      </div>
+
+  </div>
+  <script src="calc.js"></script>
+</body>
+
+</html>
